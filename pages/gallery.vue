@@ -1,6 +1,5 @@
 <template>
     <div>
-      <TopNav/>
       <BigImg :image="img" @rm="runModal($event)"/>
       <Thumb :images="items" @selectedImg="showImg($event)"/>
       <Modal v-show="showModal" :image="img" :images="items" @selectedImg="showImg($event)"  @closeModel="runModal($event)"/>

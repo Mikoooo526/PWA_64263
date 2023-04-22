@@ -1,18 +1,15 @@
 <template>
-   <div>
-        <TopNav />
-       
-    </div>
+  <div>
+
+  </div>
 </template>
 
 <script>
 
-
-import TopNav from '../components/nav/TopNav.vue';
-export default {
-  name: 'IndexPage',
-  components: { TopNav},
+export default{
+  name:"index"
 }
+
 </script>
 
 <style scoped>

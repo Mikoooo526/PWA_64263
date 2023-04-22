@@ -1,17 +1,25 @@
 <template>
-  <div class="nav">
+  <div class="nav" ref="topElement">
     <NuxtLink class="nav-item" to="/about">About</NuxtLink>
     <NuxtLink class="nav-item" to="/">Home</NuxtLink>
     <NuxtLink class="nav-item" to="/gallery">Gallery</NuxtLink>
+    <NuxtLink class="nav-item" to="/cars/">Car</NuxtLink>
+    <NuxtLink class="nav-item" to="/nasa/">NASA</NuxtLink>
 
   </div>
 </template>
   
 <script>
-export default {
-  name: 'NavPage'
+export default{
+  name:"Top",
+  data(){
+    return{
+      name:'123'
+    }
+  }
 }
 </script>
+
 <style scoped>
 .nav {
   display: flex;

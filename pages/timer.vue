@@ -1,6 +1,5 @@
 <template>
     <div>
-        <TopNav />
         <Timer targetDate='2023-04-27 20:45:00'/>
     </div>
 </template>
